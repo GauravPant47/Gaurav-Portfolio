@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background: linear-gradient(to left, rgb(33, 110, 173), rgb(189, 191, 255));
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.left {
+    font-size: 50px;
+}
+
+.left a {
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(97, 7, 206);
+}
+
+.right ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.right ul li {
+    padding: 0px 50px;
+}
+
+.right ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: rebeccapurple aqua;
+}
+
+.container {
+    display: inline;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-cart {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    margin-top: 50px;
+    height: auto;
+    width: auto;
+    border-radius: 0px 0px 50px 0px;
+    box-shadow: 3px 3px rgb(255, 212, 212), -1em 0 .4em rgb(255, 255, 180);
+}
+
+.container-img {
+    margin: 6vh;
+}
+
+.container-img img {
+    height: 60vh;
+    width: auto;
+    border-radius: 50px 50px 50px 50px;
+}
+
+.container-img img:hover {
+    filter: blur(5px);
+}
+
+
+.container-right h1 {
+    font-size: 90px;
+    margin-bottom: 10vh;
+    color: rgb(2, 2, 147);
+}
+
+.container-right span {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 0 6px 20px;
+}
+
+.container-right span p {
+    font-size: 25px;
+    padding: 0 6px 20px;
+}
+
+.container-edu {
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    height: auto;
+    width: auto;
+    border-radius: 0px 0px 50px 0px;
+    box-shadow: 3px 3px rgb(255, 212, 212), -1em 0 .4em rgb(255, 255, 180);
+}
+
+.container-edu .education {
+    font-size: 50px;
+    font-weight: 600;
+    margin: 0 30px 30px;
+}
+
+.container-education {
+    display: inline-grid;
+    align-items: center;
+    border: 1px transparent;
+    background-color: #fff;
+    height: auto;
+    width: 80vh;
+    margin-bottom: 5vh;
+    margin-left: 3vh;
+    border-radius: 5px;
+    padding: 15px;
+}
+.container-education span{
+}
+.container-education span a{
+    text-decoration: none;
+    color: black;
+}
