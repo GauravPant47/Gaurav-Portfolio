@@ -16,6 +16,8 @@ nav {
     justify-content: space-between;
     padding: 20px;
     background-color: #fff;
+    top: 0;
+    position: sticky;
 }
 
 .left {
@@ -58,7 +60,7 @@ nav {
     margin-top: 50px;
     height: auto;
     width: auto;
-    border-radius: 0px 0px 50px 0px;
+    border-radius: 0px 100px 100px 0px;
     box-shadow: 3px 3px rgb(255, 212, 212), -1em 0 .4em rgb(255, 255, 180);
 }
 
@@ -103,8 +105,13 @@ nav {
     margin-top: 50px;
     height: auto;
     width: auto;
-    border-radius: 0px 0px 50px 0px;
+    border-radius: 0px 100px 100px 0px;
     box-shadow: 3px 3px rgb(255, 212, 212), -1em 0 .4em rgb(255, 255, 180);
+}
+.container-edu img{
+    height: 60vh;
+    border-radius: 5px;
+    margin-left: 15px;
 }
 
 .container-edu .education {
@@ -112,9 +119,13 @@ nav {
     font-weight: 600;
     margin: 0 30px 30px;
 }
-
+.container-edu .cart-fix{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
 .container-education {
-    display: inline-grid;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
     align-items: center;
     border: 1px transparent;
     background-color: #fff;
@@ -125,9 +136,17 @@ nav {
     border-radius: 5px;
     padding: 15px;
 }
-.container-education span{
+
+.container-education h2 {
+    color: blue;
+    margin-bottom: 15px;
 }
-.container-education span a{
+
+.container-education span a {
     text-decoration: none;
     color: black;
+}
+
+.date-color {
+    color: rgb(169, 169, 169);
 }
