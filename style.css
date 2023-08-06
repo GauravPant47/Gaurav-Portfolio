@@ -108,7 +108,8 @@ nav {
     border-radius: 0px 100px 100px 0px;
     box-shadow: 3px 3px rgb(255, 212, 212), -1em 0 .4em rgb(255, 255, 180);
 }
-.container-edu img{
+
+.container-edu img {
     height: 60vh;
     border-radius: 5px;
     margin-left: 15px;
@@ -119,17 +120,20 @@ nav {
     font-weight: 600;
     margin: 0 30px 30px;
 }
-.container-edu .cart-fix{
+
+.container-edu .cart-fix {
     display: grid;
     grid-template-columns: 1fr 2fr;
 }
-.proj-cart{
+
+.proj-cart {
     margin-top: 10px;
     display: grid;
     align-items: start;
     grid-template-columns: 2fr 1fr 60px;
     justify-content: space-between;
 }
+
 .container-education {
     display: block;
     align-items: center;
@@ -147,12 +151,13 @@ nav {
     color: blue;
     margin-bottom: 10px;
 }
-.container-education h3{
+
+.container-education h3 {
     font-size: 18px;
     margin-bottom: 15px;
 }
 
-.container-education p{
+.container-education p {
     margin-top: 5px;
     margin-bottom: 5px;
 }
@@ -165,4 +170,59 @@ nav {
 
 .date-color {
     color: rgb(169, 169, 169);
+}
+
+/* Footer Style */
+
+
+.container-footer {
+    /* max-width: 1200px; */
+    /* margin: 0 auto; */
+    /* padding: 60px; */
+    margin-top: 50px;
+}
+
+footer {
+    background-color: #ffffff;
+    color: #fff;
+    padding: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-side ul,
+.right-side ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.left-side ul li,
+.right-side ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.left-side ul li:last-child,
+.right-side ul li:last-child {
+    margin-right: 0;
+}
+
+.left-side ul li a,
+.right-side ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.middle-side {
+    text-align: center;
+}
+
+.middle-side p {
+    margin: 5px 0;
+    color: #000000;
+}
+
+.right-side ul {
+    text-align: right;
 }
