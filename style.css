@@ -180,6 +180,7 @@ nav {
     /* margin: 0 auto; */
     /* padding: 60px; */
     margin-top: 50px;
+
 }
 
 footer {
@@ -225,4 +226,26 @@ footer {
 
 .right-side ul {
     text-align: right;
+}
+
+/* about me css */
+.text-about {
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 60vh;
+
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    width: 750px;
+}
+
+.text-about p {
+    margin-top: 20px;
+}
+
+.text-about h1 {
+    color: rebeccapurple;
+    font-weight: 600;
 }
