@@ -249,3 +249,11 @@ footer {
     color: rebeccapurple;
     font-weight: 600;
 }
+.text-about button{
+    padding: 25px 100px;
+    font-size: 20px;
+}
+#downloadButton{
+    margin-left: 35%;
+    margin-top: 5%;
+}
