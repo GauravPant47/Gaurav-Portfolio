@@ -1,3 +1,10 @@
+const menuToggle = document.querySelector('.menu-toggle');
+const navLinks = document.querySelector('.nav-links');
+
+menuToggle.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+});
+
 // Function to handle button click event
 document.getElementById("downloadButton").addEventListener("click", function () {
     // URL of the PDF file
@@ -17,3 +24,6 @@ document.getElementById("downloadButton").addEventListener("click", function () 
     // Clean up: remove the anchor element from the body
     document.body.removeChild(anchor);
 });
+
+
+
