@@ -24,11 +24,13 @@ body {
     font-size: 50px;
     font-weight: bold;
 }
-.logo a{
+
+.logo a {
     text-decoration: none;
     font-weight: 600;
     color: rgb(97, 7, 206);
 }
+
 .nav-links {
     list-style: none;
     display: flex;
@@ -282,7 +284,7 @@ td {
 footer {
     background-color: #ffffff;
     color: #fff;
-    padding: 90px;
+    padding: 50px;
     display: flex;
     justify-content: space-between;
 }
@@ -295,13 +297,15 @@ footer {
 }
 
 .left-side ul li {
-    display: flex;
-    padding: 5px;
+    display: grid;
+    /* padding: 15px; */
+    grid-template-columns: 1fr 2fr;
 }
 
 .right-side ul li {
-    display: inline-block;
+    display: flex;
     margin-right: 20px;
+    grid-template-columns: 1fr 1fr;
 }
 
 .left-side ul li:last-child,
@@ -313,7 +317,12 @@ footer {
 .right-side ul li a {
     color: #000000;
     text-decoration: none;
+    margin: 10px;
 }
+
+/* .left-side ul li a {
+    margin: 10px;
+} */
 
 .middle-side {
     text-align: center;
